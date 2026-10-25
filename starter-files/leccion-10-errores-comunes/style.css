@@ -1,0 +1,46 @@
+/* Lección 10 - Errores comunes
+   Hay 3 errores en este archivo. Busca los comentarios "¿?" */
+
+body {
+  background-color: #e8f0fe;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* ¿? La tarjeta no se ve blanca... */
+.tarjeta {
+  background-colour: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+/* ¿? La foto no sale redonda... */
+foto {
+  border-radius: 50%;
+}
+
+/* ¿? El título no cambia ni de color ni de tamaño... */
+h1 {
+  color: #1a73e8
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
