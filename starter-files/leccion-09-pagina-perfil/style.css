@@ -1,0 +1,39 @@
+/* Lección 9 - Creando tu página de perfil
+   Completa cada PASO usando lo que aprendiste en las lecciones 7 y 8. */
+
+/* PASO 7: Dale al body un color de fondo (background-color),
+   una fuente (font-family) y centra el texto (text-align) */
+body {
+
+}
+
+/* PASO 8: Dale a la tarjeta fondo blanco, un ancho máximo de 400px,
+   márgenes automáticos para centrarla y bordes redondeados */
+.tarjeta {
+
+}
+
+/* PASO 9: Haz la foto redonda (border-radius: 50%) */
+.foto {
+
+}
+
+/* PASO 10: Cambia el color del título */
+h1 {
+
+}
+
+/* PASO 11: Haz que el subtítulo se vea gris */
+.subtitulo {
+
+}
+
+/* PASO 12: Quita las viñetas de la lista (list-style: none) */
+ul {
+
+}
+
+/* PASO 13: Convierte el enlace en un botón con fondo de color y texto blanco */
+.boton {
+
+}
