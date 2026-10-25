@@ -1,0 +1,48 @@
+/* Lección 9 - Creando tu página de perfil (solución) */
+
+/* PASO 7 */
+body {
+  background-color: #e8f0fe;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* PASO 8 */
+.tarjeta {
+  background-color: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+/* PASO 9 */
+.foto {
+  border-radius: 50%;
+}
+
+/* PASO 10 */
+h1 {
+  color: #1a73e8;
+}
+
+/* PASO 11 */
+.subtitulo {
+  color: gray;
+}
+
+/* PASO 12 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* PASO 13 */
+.boton {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
