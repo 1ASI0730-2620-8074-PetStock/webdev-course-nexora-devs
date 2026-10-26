@@ -1,0 +1,33 @@
+
+/* Estilos generales de la página */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: darkblue;
+    font-size: 32px;
+    border: 2px solid darkblue;
+    padding: 10px;
+}
+
+/* Estilo de los subtítulos */
+h2 {
+    color: green;
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Estilo de los párrafos */
+p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}

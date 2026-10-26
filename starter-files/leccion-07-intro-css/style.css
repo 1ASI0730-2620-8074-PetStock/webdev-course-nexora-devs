@@ -1,0 +1,23 @@
+
+/* LECCIÓN 07: INTRODUCCIÓN A CSS */
+
+/* Actividad 1: Cambiar el fondo de la página */
+body {
+    /* Agrega background-color */
+    /* Agrega font-family */
+}
+
+/* Actividad 2: Cambiar el color del título */
+h1 {
+    /* Agrega color: darkblue; */
+}
+
+/* Actividad 3: Cambiar los subtítulos */
+h2 {
+    /* Agrega color: green; */
+}
+
+/* Actividad 4: Cambiar los párrafos */
+p {
+    /* Agrega color: black; */
+}
