@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Introducción (0:00 – 0:45)
+## 1. Introducción
 
 **Narración:**
 "¡Hola! Llegamos a la parte más emocionante del curso: vamos a juntar todo lo que aprendimos para crear nuestra propia página de perfil. Usaremos títulos, párrafos, listas, imágenes, enlaces y CSS. Al final tendrás una tarjeta de presentación que puedes compartir con tus amigos."
@@ -14,7 +14,7 @@
 **Texto en pantalla:** Lección 9 – Tu página de perfil
 **Visual:** Mostrar el resultado final terminado.
 
-## 2. Preparar CodePen (0:45 – 1:30)
+## 2. Preparar CodePen 
 
 **Narración:**
 "Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files, solo lo que está entre `<body>` y `</body>`, y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. CodePen conecta el HTML y el CSS solito."
@@ -22,7 +22,7 @@
 **Texto en pantalla:** Panel HTML ← lo que está dentro de `<body>` · Panel CSS ← style.css
 **Visual:** Pegar el código en cada panel.
 
-## 3. Estructura HTML: pasos 1 a 6 (1:30 – 3:45)
+## 3. Estructura HTML: pasos 1 a 6 
 
 **Narración:**
 "Empecemos con la foto. Usamos la etiqueta `img` con el atributo `src` para la dirección de la imagen y `alt` para describirla. Le agregamos la clase `foto` para darle estilo después."
@@ -36,7 +36,7 @@
 **Texto en pantalla:** `<img>` · `<h1>` · `<p>` · `<h2>` · `<ul>` + `<li>` · `<a>`
 **Visual:** Escribir cada paso y mostrar cómo cambia la vista previa.
 
-## 4. Algo nuevo: las clases (3:45 – 4:30)
+## 4. Algo nuevo: las clases 
 
 **Narración:**
 "Antes de ir al CSS, algo nuevo. En la lección 7 aplicamos estilos a todas las etiquetas de un tipo, por ejemplo a todos los `h1`. Pero ¿y si queremos darle estilo solo a un elemento? Para eso usamos el atributo `class`, que es como ponerle un nombre o una etiqueta adhesiva. Por ejemplo, a nuestra imagen le pusimos `class="foto"`."
@@ -46,7 +46,7 @@
 **Texto en pantalla:** HTML: `class="foto"` → CSS: `.foto { }` · ¡No olvides el punto!
 **Visual:** Flecha que une `class="foto"` en el HTML con `.foto` en el CSS.
 
-## 5. Dar estilo con CSS: pasos 7 a 13 (4:30 – 6:30)
+## 5. Dar estilo con CSS: pasos 7 a 13 
 
 **Narración:**
 "Nuestra página ya tiene contenido, pero se ve muy simple. Vamos al panel CSS. Usaremos lo que aprendimos en las lecciones 7 y 8, y conoceremos algunas propiedades nuevas."
@@ -64,7 +64,7 @@
 **Texto en pantalla:** Propiedades nuevas: `max-width` · `margin` · `border-radius` · `list-style` · `text-decoration`
 **Visual:** Escribir cada regla y mostrar el cambio en la vista previa.
 
-## 6. Cierre (6:30 – 7:15)
+## 6. Cierre
 
 **Narración:**
 "¡Listo! Ya tienes tu página de perfil. Cambia el nombre, la foto, los colores y los pasatiempos para que sea tuya. Puedes comparar tu código con la solución en la carpeta completed-examples. En la siguiente lección veremos los errores más comunes y cómo arreglarlos."
