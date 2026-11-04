@@ -17,7 +17,7 @@
 ## 2. Preparar CodePen (0:40 – 1:10)
 
 **Narración:**
-"Copia el `index.html` y el `style.css` de la carpeta starter-files de esta lección en CodePen. Busca los comentarios con `¿?`: son tus pistas."
+"Abre CodePen. Copia lo que está entre `<body>` y `</body>` del `index.html` de la carpeta starter-files y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. Busca los comentarios con `¿?`: son tus pistas."
 
 **Visual:** Pegar el código y mostrar la vista previa con errores.
 
