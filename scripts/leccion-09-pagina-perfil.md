@@ -1,6 +1,6 @@
 # Guion – Lección 9: Creando tu página de perfil
 
-**Duración estimada:** 6–7 min
+**Duración estimada:** 7 min
 **Editor:** CodePen (https://codepen.io/pen/)
 **Archivos:** `/starter-files/leccion-09-pagina-perfil` → `/completed-examples/leccion-09-pagina-perfil`
 
@@ -17,9 +17,9 @@
 ## 2. Preparar CodePen (0:45 – 1:30)
 
 **Narración:**
-"Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files y pégalo en el panel HTML. Luego copia `style.css` en el panel CSS. En CodePen no hace falta la etiqueta `<link>`, porque el CSS ya se conecta solo."
+"Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files, solo lo que está entre `<body>` y `</body>`, y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. CodePen conecta el HTML y el CSS solito."
 
-**Texto en pantalla:** Panel HTML ← index.html · Panel CSS ← style.css
+**Texto en pantalla:** Panel HTML ← lo que está dentro de `<body>` · Panel CSS ← style.css
 **Visual:** Pegar el código en cada panel.
 
 ## 3. Estructura HTML: pasos 1 a 6 (1:30 – 3:45)
@@ -36,25 +36,35 @@
 **Texto en pantalla:** `<img>` · `<h1>` · `<p>` · `<h2>` · `<ul>` + `<li>` · `<a>`
 **Visual:** Escribir cada paso y mostrar cómo cambia la vista previa.
 
-## 4. Dar estilo con CSS: pasos 7 a 13 (3:45 – 6:00)
+## 4. Algo nuevo: las clases (3:45 – 4:30)
 
 **Narración:**
-"Nuestra página ya tiene contenido, pero se ve muy simple. Vamos al panel CSS."
+"Antes de ir al CSS, algo nuevo. En la lección 7 aplicamos estilos a todas las etiquetas de un tipo, por ejemplo a todos los `h1`. Pero ¿y si queremos darle estilo solo a un elemento? Para eso usamos el atributo `class`, que es como ponerle un nombre o una etiqueta adhesiva. Por ejemplo, a nuestra imagen le pusimos `class="foto"`."
+
+"En el CSS, para elegir una clase escribimos un punto antes del nombre: `.foto`. Así el estilo se aplica solo a los elementos que tienen esa clase."
+
+**Texto en pantalla:** HTML: `class="foto"` → CSS: `.foto { }` · ¡No olvides el punto!
+**Visual:** Flecha que une `class="foto"` en el HTML con `.foto` en el CSS.
+
+## 5. Dar estilo con CSS: pasos 7 a 13 (4:30 – 6:30)
+
+**Narración:**
+"Nuestra página ya tiene contenido, pero se ve muy simple. Vamos al panel CSS. Usaremos lo que aprendimos en las lecciones 7 y 8, y conoceremos algunas propiedades nuevas."
 
 "En el `body` ponemos un fondo celeste claro, la fuente Arial y centramos el texto."
 
-"A `.tarjeta` le damos fondo blanco, un ancho máximo de 400 píxeles y `margin: 40px auto` para centrarla. Con `padding` dejamos espacio por dentro y con `border-radius` redondeamos las esquinas."
+"A `.tarjeta` le damos fondo blanco y dos propiedades nuevas: `max-width: 400px`, para que no sea más ancha de 400 píxeles, y `margin: 40px auto`, que deja espacio por fuera y la centra en la pantalla. Con `padding`, que ya conocemos, dejamos espacio por dentro. Y otra propiedad nueva: `border-radius`, que redondea las esquinas."
 
-"Para que la foto sea un círculo usamos `border-radius: 50%`."
+"Si a la foto le ponemos `border-radius: 50%`, ¡se vuelve un círculo!"
 
 "Cambiamos el color del `h1` a azul y el del subtítulo a gris. En la lista quitamos las viñetas con `list-style: none`."
 
-"Y para terminar convertimos el enlace en un botón: fondo azul, texto blanco, algo de `padding`, esquinas redondeadas y `text-decoration: none` para quitar el subrayado."
+"Y para terminar convertimos el enlace en un botón: fondo azul, texto blanco, algo de `padding` y esquinas redondeadas. Con `text-decoration: none` quitamos el subrayado, y con `display: inline-block` el padding funciona bien en el enlace."
 
-**Texto en pantalla:** Recuerda: las clases se seleccionan con un punto → `.tarjeta`
+**Texto en pantalla:** Propiedades nuevas: `max-width` · `margin` · `border-radius` · `list-style` · `text-decoration`
 **Visual:** Escribir cada regla y mostrar el cambio en la vista previa.
 
-## 5. Cierre (6:00 – 6:45)
+## 6. Cierre (6:30 – 7:15)
 
 **Narración:**
 "¡Listo! Ya tienes tu página de perfil. Cambia el nombre, la foto, los colores y los pasatiempos para que sea tuya. Puedes comparar tu código con la solución en la carpeta completed-examples. En la siguiente lección veremos los errores más comunes y cómo arreglarlos."
