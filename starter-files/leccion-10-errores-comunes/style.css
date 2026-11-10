@@ -1,5 +1,5 @@
 /* Lección 10 - Errores comunes
-   Hay 3 errores en este archivo. Busca los comentarios "¿?" */
+   Este archivo tiene 3 errores. ¡Encuéntralos! */
 
 body {
   background-color: #e8f0fe;
@@ -7,7 +7,6 @@ body {
   text-align: center;
 }
 
-/* ¿? La tarjeta no se ve blanca... */
 .tarjeta {
   background-colour: white;
   max-width: 400px;
@@ -16,12 +15,10 @@ body {
   border-radius: 16px;
 }
 
-/* ¿? La foto no sale redonda... */
 foto {
   border-radius: 50%;
 }
 
-/* ¿? El título no cambia ni de color ni de tamaño... */
 h1 {
   color: #1a73e8
   font-size: 32px;
