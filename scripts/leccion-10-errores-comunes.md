@@ -16,6 +16,8 @@
 
 ## 2. Consejos para encontrar errores 
 
+## 3. Consejos para encontrar errores 
+
 **Narración:**
 "Tres consejos: primero, revisa que cada etiqueta que abres también se cierre. Segundo, fíjate en los colores del editor: si algo se ve de un color raro, puede estar mal escrito. Tercero, haz un cambio a la vez y mira la vista previa."
 
