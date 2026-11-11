@@ -14,14 +14,34 @@
 **Texto en pantalla:** Lección 10 – ¡Caza de errores! 🔍 (6 errores)
 **Visual:** Mostrar la página rota junto a la página correcta.
 
-## 2. Preparar CodePen
+## 2. Consejos para encontrar errores 
 
 **Narración:**
-"Abre CodePen. Copia lo que está entre `<body>` y `</body>` del `index.html` de la carpeta starter-files y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. Busca los comentarios con `¿?`: son tus pistas."
+"Tres consejos: primero, revisa que cada etiqueta que abres también se cierre. Segundo, fíjate en los colores del editor: si algo se ve de un color raro, puede estar mal escrito. Tercero, haz un cambio a la vez y mira la vista previa."
+
+**Texto en pantalla:**
+✔ Abre y cierra etiquetas
+✔ Revisa los colores del editor
+✔ Un cambio a la vez
+
+## 3. Preparar CodePen
+
+**Narración:**
+"Abre CodePen. Copia lo que está entre `<body>` y `</body>` del `index.html` de la carpeta starter-files y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. Pausa el video e intenta encontrar los errores tú solo."
 
 **Visual:** Pegar el código y mostrar la vista previa con errores.
 
-## 3. Errores en HTML
+## 3. Consejos para encontrar errores 
+
+**Narración:**
+"Tres consejos: primero, revisa que cada etiqueta que abres también se cierre. Segundo, fíjate en los colores del editor: si algo se ve de un color raro, puede estar mal escrito. Tercero, haz un cambio a la vez y mira la vista previa."
+
+**Texto en pantalla:**
+✔ Abre y cierra etiquetas
+✔ Revisa los colores del editor
+✔ Un cambio a la vez
+
+## 4. Errores en HTML
 
 **Error 1: atributo mal escrito**
 "La imagen no aparece. Si miramos bien, dice `scr` en vez de `src`. El navegador no conoce `scr`, así que lo ignora. Lo corregimos y la foto aparece."
@@ -35,7 +55,7 @@
 "El botón no lleva a MDN. Si a un enlace a otro sitio le falta `https://`, el navegador lo busca dentro de nuestra propia página."
 **Texto en pantalla:** ❌ `developer.mozilla.org` → ✅ `https://developer.mozilla.org`
 
-## 4. Errores en CSS 
+## 5. Errores en CSS 
 **Error 4: propiedad mal escrita**
 "La tarjeta no se ve blanca. Escribimos `background-colour` con 'u'. CSS usa el inglés de Estados Unidos: `color`, sin 'u'."
 **Texto en pantalla:** ❌ `colour` → ✅ `color`
@@ -48,23 +68,4 @@
 "El título no cambia ni de color ni de tamaño. Después de `color: #1a73e8` falta el punto y coma, así que CSS junta esa línea con la siguiente y no entiende ninguna de las dos."
 **Texto en pantalla:** ❌ `color: #1a73e8` → ✅ `color: #1a73e8;`
 
-## 5. Consejos para encontrar errores 
 
-**Narración:**
-"Tres consejos: primero, revisa que cada etiqueta que abres también se cierre. Segundo, fíjate en los colores del editor: si algo se ve de un color raro, puede estar mal escrito. Tercero, haz un cambio a la vez y mira la vista previa."
-
-**Texto en pantalla:**
-✔ Abre y cierra etiquetas
-✔ Revisa los colores del editor
-✔ Un cambio a la vez
-
-## 6. Próximos pasos y cierre 
-
-**Narración:**
-"¡Felicitaciones, terminaste el curso! Ya sabes crear una página web con HTML y CSS. Si quieres seguir aprendiendo, tienes recursos gratuitos en español: MDN Web Docs para consultar cualquier etiqueta, y freeCodeCamp para practicar con retos. El siguiente paso es JavaScript, que le da interactividad a tus páginas. ¡Sigue practicando y crea muchas páginas!"
-
-**Texto en pantalla:**
-📘 MDN Web Docs: developer.mozilla.org/es
-💻 freeCodeCamp: freecodecamp.org/espanol
-➡️ Siguiente paso: JavaScript
-🎉 ¡Gracias por aprender con nosotros!
