@@ -1,0 +1,119 @@
+
+
+## Resumen del Curso
+Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar a estudiantes de secundaria a crear sus propias páginas web desde cero utilizando HTML y CSS.
+
+**¡No requiere descargas!** Todo el entorno de desarrollo es 100% en línea y gratuito. Solo necesitas tu navegador web.
+
+* **Duración total**: ~60 minutos
+* **Público objetivo**: Estudiantes de 12 a 17 años sin experiencia previa en programación
+* **Prerrequisitos**: Ninguno
+* **Herramientas necesarias**: ¡Solo tu navegador web! (Chrome, Firefox, Safari, Edge)
+* **Editor en línea**: [CodePen](https://codepen.io)
+* **Repositorio de código fuente**: [https://github.com/1ASI0730-2620-8074-PetStock/webdev-course-nexora-devs](https://github.com/1ASI0730-2620-8074-PetStock/webdev-course-nexora-devs)
+
+## Secuencia de Lecciones
+
+### Módulo A: Conociendo la web
+
+#### Lección 1: ¿Qué es el desarrollo web? (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+#### Lección 2: Tu primera página HTML (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+### Módulo B: Organizando el contenido HTML
+
+#### Lección 3: Dando formato al texto (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+#### Lección 4: Creación de listas (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+### Módulo C: Multimedia y navegación
+
+#### Lección 5: Añadiendo imágenes (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+#### Lección 6: Conectando la web con enlaces (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+### Módulo D: Diseño y estilos con CSS
+
+#### Lección 7: Introducción a CSS (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+#### Lección 8: Colores, fuentes y alineación (Pendiente)
+* **Descripción**: Pendiente
+* **Video**: Pendiente
+* **Consejos clave**: Pendiente
+* **Práctica**: Pendiente
+
+### Módulo E: Proyecto final y revisión
+
+#### Lección 9: Creando tu página de perfil (X minutos)
+* **Descripción**: Combina todo lo aprendido para crear tu propia tarjeta de perfil con foto, nombre, pasatiempos y un botón, usando HTML y CSS.
+* **Video**: [Ver la lección](https://youtu.be/1-0Woe8HNqQ)
+* **Consejos clave**: Usa clases (`class="foto"` en HTML y `.foto` en CSS) y `border-radius: 50%` para una foto redonda.
+* **Práctica**: [Crea tu perfil en CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG)
+
+#### Lección 10: Errores comunes (X minutos)
+* **Descripción**: Encuentra y corrige los 6 errores más comunes de HTML y CSS, y aprende consejos para evitarlos.
+* **Video**: [Ver la lección](https://youtu.be/mbav60LNXmM)
+* **Consejos clave**: Cierra cada etiqueta, revisa los colores del editor y haz un cambio a la vez.
+* **Práctica**: [Caza los errores en CodePen](https://codepen.io/Nexora-Web-cu/pen/zxrVxEe)
+
+---
+
+## Recursos Adicionales
+
+* **Código fuente completo**: [Repositorio de GitHub](https://github.com/1ASI0730-2620-8074-PetStock/webdev-course-nexora-devs)
+* **Todas las actividades prácticas**:
+
+| Lección | Actividad | Empezar a programar |
+| :---: | :--- | :--- |
+| 1 | ¿Qué es el desarrollo web? | Pendiente |
+| 2 | Tu primera página HTML | Pendiente |
+| 3 | Dando formato al texto | Pendiente |
+| 4 | Creación de listas | Pendiente |
+| 5 | Añadiendo imágenes | Pendiente |
+| 6 | Conectando la web con enlaces | Pendiente |
+| 7 | Introducción a CSS | Pendiente |
+| 8 | Colores, fuentes y alineación | Pendiente |
+| 9 | Proyecto final: página de perfil | [CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG) |
+| 10 | Caza de errores | [CodePen](https://codepen.io/Nexora-Web-cu/pen/zxrVxEe) |
+
+* **Para seguir aprendiendo**: [MDN Web Docs](https://developer.mozilla.org/es/) · [freeCodeCamp](https://www.freecodecamp.org/espanol/)
+
+**¡Gracias por completar el curso!**
+
+## Elaboración
+* **Universidad Peruana de Ciencias Aplicadas**
+* **Carrera de Ingeniería de Software**
+* **Periodo**: 202620
+* **Curso**: 1ASI0730 Aplicaciones Web
+* **NRC**: Pendiente
+* **Nombre del equipo**: Nexora Devs
+* **Líder del equipo**: Pendiente
+* **Integrantes del equipo**: Pendiente
