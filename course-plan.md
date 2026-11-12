@@ -57,19 +57,46 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 * **Práctica**: [Agrega tus enlaces en CodePen](https://codepen.io/desarrolloweb56/pen/ZYePvrO?editors=1000)
 
 
+
 ### Módulo D: Diseño y estilos con CSS
 
-#### Lección 7: Introducción a CSS (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+#### Lección 7: Introducción a CSS (Completada)
 
-#### Lección 8: Colores, fuentes y alineación (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+* **Descripción**: En esta lección aprenderemos qué es CSS y cómo se utiliza para mejorar la apariencia de una página web. Conoceremos la relación entre HTML y CSS, la estructura de una regla CSS y el uso de selectores básicos para modificar colores y estilos.
+
+* **Video**: [Lección 7 - Introducción a CSS](https://www.youtube.com/watch?v=dp-tQ7vvvOs)
+
+* **Consejos clave**:
+  * HTML organiza el contenido y CSS define su apariencia visual.
+  * Una regla CSS está formada por un selector, una propiedad y un valor.
+  * El selector `body` permite modificar el fondo de la página.
+  * Los selectores `h1`, `h2` y `p` permiten aplicar estilos a títulos, subtítulos y párrafos.
+  * `background-color` modifica el fondo y `color` modifica el color del texto.
+  * Es importante utilizar correctamente las llaves, los dos puntos y el punto y coma.
+
+* **Práctica**: [CodePen - Lección 7: Práctica inicial](https://codepen.io/nexora-webdev-course/pen/LEWajMm?editors=1100)
+
+* **Ejemplo terminado**: [CodePen - Lección 7: Resultado final](https://codepen.io/nexora-webdev-course/pen/KwWEvpO?editors=1100)
+
+#### Lección 8: Colores, fuentes y alineación (Completada)
+
+* **Descripción**: En esta lección aprenderemos a mejorar el diseño de una página web utilizando propiedades CSS para modificar fuentes, tamaños de letra, alineaciones, bordes y espacios. Aplicaremos estos conceptos para conseguir una página más organizada, atractiva y fácil de leer.
+
+* **Video**: [Lección 8 - Colores, fuentes y alineación](https://www.youtube.com/watch?v=BdnJxqogQY4)
+
+* **Consejos clave**:
+  * `font-family` permite cambiar el tipo de letra de una página.
+  * `font-size` permite modificar el tamaño de los textos.
+  * `text-align` permite alinear los textos a la izquierda, al centro o a la derecha.
+  * `border` permite agregar bordes a los elementos HTML.
+  * `padding` crea espacios interiores entre el contenido y su borde.
+  * `margin` permite crear espacios exteriores entre los elementos.
+  * Se recomienda utilizar colores con buen contraste y tamaños de letra adecuados para facilitar la lectura.
+
+* **Práctica**: [CodePen - Lección 8: Práctica inicial](https://codepen.io/nexora-webdev-course/pen/pveYrYE?editors=1100)
+
+* **Ejemplo terminado**: [CodePen - Lección 8: Resultado final](https://codepen.io/nexora-webdev-course/pen/bNqZraP?editors=1100)
+
 
 ### Módulo E: Proyecto final y revisión
 #### Lección 9: Creando tu página de perfil (5 minutos)
