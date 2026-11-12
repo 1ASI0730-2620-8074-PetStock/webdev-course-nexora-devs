@@ -1,79 +1,55 @@
 # Guion – Lección 4: Creación de listas
 
-**Duración estimada:** 5–6 min
-**Editor:** CodePen (https://codepen.io/pen/)
+**Duración:** 5 min
+**Editor:** CodePen
+**Video:** https://youtu.be/BzdWbJrOydM
+**Práctica:** https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split
 **Archivos:** `/starter-files/leccion-04-listas` → `/completed-examples/leccion-04-listas`
 
 ---
 
-## 1. Introducción (0:00 – 0:40)
+## Parte 1: Presentación (diapositivas)
 
-**Narración:**
-"¡Hola de nuevo! Una lista de compras, los pasos de un juego, una receta de cocina: ¡todo eso son listas! En HTML también podemos crearlas. Hoy Lucía quiere publicar su receta favorita de chocolate caliente, y para eso necesita dos tipos de listas. ¡Vamos a ayudarla!"
+**Diapositiva 1 – Portada**
+"¡Hola de nuevo! Bienvenido a la lección 4. Una lista de compras, los pasos de un juego, una receta de cocina: ¡todo eso son listas! Hoy Lucía quiere publicar su receta de chocolate caliente, y vamos a ayudarla con listas en HTML."
 
-**Texto en pantalla:** Lección 4 – Creación de listas · 🍫 Receta de chocolate caliente
-**Visual:** Mostrar el resultado final: ingredientes con viñetas y pasos con números.
+**Diapositiva 2 – ¿Qué es una lista en HTML?**
+"Una lista agrupa elementos relacionados. En HTML, primero abrimos la lista, luego escribimos cada elemento dentro de su propia etiqueta, y al final cerramos la lista."
 
-## 2. Dos tipos de listas (0:40 – 1:40)
+**Diapositiva 3 – Dos tipos de listas**
+"En HTML hay dos tipos de listas. La lista con viñetas usa la etiqueta ul, de unordered list, que significa lista sin orden. Úsala cuando el orden no importa, como en los ingredientes. La lista numerada usa ol, de ordered list, que significa lista ordenada. Úsala cuando el orden sí importa, como en los pasos de una receta."
 
-**Narración:**
-"En HTML hay dos tipos de listas. La lista con viñetas se usa cuando el orden no importa, como en los ingredientes: da igual si escribes primero la leche o el chocolate. Su etiqueta es `ul`, de 'unordered list', que significa lista sin orden."
+**Diapositiva 4 – La etiqueta li**
+"En las dos listas, cada elemento va dentro de una etiqueta li, de list item, que significa elemento de la lista. Recuerda: los li siempre van dentro de un ul o de un ol, nunca solos. Y escribimos un li por cada ingrediente o por cada paso."
 
-"La lista numerada se usa cuando el orden sí importa, como en los pasos de una receta. Su etiqueta es `ol`, de 'ordered list', que significa lista ordenada."
+**Diapositiva 5 – Los números salen solos**
+"Y algo genial: en una lista ol tú no escribes los números. El navegador los pone solito. Mira: si agregamos un paso nuevo en medio, Sirve en una taza pasa del número 3 al 4, sin que cambiemos nada."
 
-"Y en las dos, cada elemento va dentro de una etiqueta `li`, de 'list item', que significa elemento de la lista."
+**Diapositiva 6 – Ejemplo**
+"Mira este ejemplo. A la izquierda está el código y a la derecha, lo que muestra el navegador: los ingredientes con viñetas y la preparación con números."
 
-**Texto en pantalla:**
-`ul` → viñetas (el orden NO importa)
-`ol` → números (el orden SÍ importa)
-`li` → cada elemento de la lista
-**Visual:** Diapositiva con dos columnas: ingredientes (con viñetas) y pasos (con números), mostrando la etiqueta de cada una.
+**Diapositiva 7 – Actividad práctica**
+"¡Ahora te toca a ti! Abre el enlace de CodePen que está en la descripción del video. No tienes que instalar nada. Sigue los comentarios del código y pausa el video cuando lo necesites. ¡Vamos a CodePen!"
 
-## 3. Preparar CodePen (1:40 – 2:10)
+---
 
-**Narración:**
-"Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files, solo lo que está entre `<body>` y `</body>`, y pégalo en el panel HTML. Esta lección tampoco usa CSS."
+## Parte 2: Práctica en CodePen
 
-**Texto en pantalla:** Panel HTML ← lo que está dentro de `<body>`
-**Visual:** Abrir CodePen, pegar el código y mostrar la vista previa: los títulos y el párrafo, sin listas todavía.
+**Inicio**
+"Esta es la página de recetas de Lucía. Ya tiene los títulos, pero le faltan las listas. Hoy tampoco usamos CSS."
 
-## 4. Lista con viñetas: paso 1 (2:10 – 3:10)
+**Paso 1 – Lista con viñetas** · `<ul> + <li>`
+"Debajo de Ingredientes abrimos ul. Dentro, un li por cada ingrediente: leche, chocolate, azúcar y canela. Cerramos con ul. Mira: cada ingrediente tiene su viñeta."
 
-**Narración:**
-"Paso 1: los ingredientes. Debajo del título 'Ingredientes' abrimos una lista con `<ul>`. Dentro, cada ingrediente va en su propia etiqueta `li`: leche, chocolate, azúcar y canela. Al final cerramos con `</ul>`. Mira la vista previa: cada elemento tiene su viñeta."
+**Paso 2 – Lista numerada** · `<ol> + <li>`
+"Debajo de Preparación abrimos ol y escribimos un li por cada paso. Cerramos con ol. Fíjate: no escribimos ningún número, ¡el navegador los puso solo!"
 
-"Un detalle importante: los `li` siempre van dentro de un `ul` o de un `ol`. Nunca solos."
+**Paso 3 – Reto** · `nuevo <li>`
+"¡Lucía se olvidó de un paso! Antes de servir hay que apagar el fuego. Agregamos un li nuevo entre el paso 2 y el paso 3 que diga Apaga el fuego. ¿Viste? Sirve en una taza pasó del 3 al 4 sin que cambiáramos nada. Pausa el video y haz los tres pasos."
 
-"Pausa el video y haz el paso 1."
+---
 
-**Texto en pantalla:** `<ul>` + `<li>` = lista con viñetas
-**Visual:** Escribir la lista línea por línea y hacer zoom a las viñetas en la vista previa.
+## Parte 3: Cierre
 
-## 5. Lista numerada: paso 2 (3:10 – 4:10)
-
-**Narración:**
-"Paso 2: la preparación. Aquí el orden sí importa, así que usamos `<ol>`. Dentro escribimos un `li` por cada paso: calienta la leche; agrega el chocolate y el azúcar; sirve en una taza; y disfrútalo con cuidado. Cerramos con `</ol>`. Fíjate: nosotros no escribimos los números. El navegador los pone solito."
-
-"Pausa el video y haz el paso 2."
-
-**Texto en pantalla:** `<ol>` + `<li>` = lista con números automáticos
-**Visual:** Escribir la lista y señalar los números que aparecen solos en la vista previa.
-
-## 6. Reto: ¡se olvidó un paso! (4:10 – 4:50)
-
-**Narración:**
-"Paso 3, el reto. ¡Lucía se olvidó de un paso! Antes de servir hay que apagar el fuego. Agrega un `li` nuevo entre el paso 2 y el paso 3, con el texto 'Apaga el fuego'. ¿Viste? No cambiamos ningún número, y el navegador los ordenó otra vez."
-
-"Pausa el video y haz el reto."
-
-**Texto en pantalla:** Agregas un `li` → los números se ajustan solos
-**Visual:** Insertar el `li` en medio y marcar cómo 'Sirve en una taza' pasa del número 3 al 4.
-
-## 7. Cierre (4:50 – 5:30)
-
-**Narración:**
-"¡Excelente! Hoy aprendiste a crear listas: `ul` para viñetas, `ol` para números y `li` para cada elemento. Recuerda: si el orden no importa, usa `ul`; si importa, usa `ol`. En la siguiente lección vamos a añadir imágenes a nuestra página."
-
-**Texto en pantalla:**
-`ul` sin orden · `ol` con orden · `li` cada elemento
-➡️ Siguiente: Lección 5 – Añadiendo imágenes
+**Diapositiva 8 – Buenas prácticas**
+"¡Excelente! Antes de terminar, tres consejos. Uno: los li siempre van dentro de un ul o de un ol. Dos: si el orden no importa, usa ul; si importa, usa ol. Y tres: no escribas los números a mano, el navegador lo hace por ti. En la próxima lección vamos a añadir imágenes a nuestra página. ¡Nos vemos!"
