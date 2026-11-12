@@ -97,8 +97,8 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 | 2 | Tu primera página HTML | [CodePen](https://codepen.io/desarollador/pen/PwpLzwm?editors=1100) |
 | 3 | Dando formato al texto | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split) |
 | 4 | Creación de listas | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split) |
-| 5 | Añadiendo imágenes | Pendiente |
-| 6 | Conectando la web con enlaces | Pendiente |
+| 5 | Añadiendo imágenes | [CodePen](https://codepen.io/desarrolloweb56/pen/rayRpJW?editors=1000) |
+| 6 | Conectando la web con enlaces | [CodePen](https://codepen.io/desarrolloweb56/pen/ZYePvrO?editors=1000) |
 | 7 | Introducción a CSS | Pendiente |
 | 8 | Colores, fuentes y alineación | Pendiente |
 | 9 | Proyecto final: página de perfil | [CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG) |
