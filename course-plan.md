@@ -71,16 +71,15 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 * **Práctica**: Pendiente
 
 ### Módulo E: Proyecto final y revisión
-
-#### Lección 9: Creando tu página de perfil (X minutos)
+#### Lección 9: Creando tu página de perfil (5 minutos)
 * **Descripción**: Combina todo lo aprendido para crear tu propia tarjeta de perfil con foto, nombre, pasatiempos y un botón, usando HTML y CSS.
-* **Video**: [Ver la lección](https://youtu.be/1-0Woe8HNqQ)
+* **Video**: [Ver la lección](https://youtu.be/Sq7geX_w4jA)
 * **Consejos clave**: Usa clases (`class="foto"` en HTML y `.foto` en CSS) y `border-radius: 50%` para una foto redonda.
 * **Práctica**: [Crea tu perfil en CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG)
 
-#### Lección 10: Errores comunes (X minutos)
+#### Lección 10: Errores comunes (5 minutos)
 * **Descripción**: Encuentra y corrige los 6 errores más comunes de HTML y CSS, y aprende consejos para evitarlos.
-* **Video**: [Ver la lección](https://youtu.be/mbav60LNXmM)
+* **Video**: [Ver la lección](https://youtu.be/1uC0paN-yPw)
 * **Consejos clave**: Cierra cada etiqueta, revisa los colores del editor y haz un cambio a la vez.
 * **Práctica**: [Caza los errores en CodePen](https://codepen.io/Nexora-Web-cu/pen/zxrVxEe)
 
