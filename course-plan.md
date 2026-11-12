@@ -30,17 +30,17 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 
 ### Módulo B: Organizando el contenido HTML
 
-#### Lección 3: Dando formato al texto (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+#### Lección 3: Dando formato al texto (5 minutos)
+* **Descripción**: Ayuda a Lucía a darle formato a su página personal: destaca palabras, sepáralas con una línea y corta los versos de una adivinanza.
+* **Video**: [Ver la lección](https://youtu.be/bQ9Ttcp76r0)
+* **Consejos clave**: Usa `<strong>` (negrita), `<em>` (cursiva) y `<mark>` (resaltado); `<hr>` y `<br>` no se cierran; al combinar etiquetas, ciérralas en orden inverso.
+* **Práctica**: [Dale formato en CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split)
 
-#### Lección 4: Creación de listas (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+#### Lección 4: Creación de listas (5 minutos)
+* **Descripción**: Publica la receta de chocolate caliente de Lucía con una lista de ingredientes y una lista de pasos numerados.
+* **Video**: [Ver la lección](https://youtu.be/BzdWbJrOydM)
+* **Consejos clave**: Usa `<ul>` cuando el orden no importa y `<ol>` cuando sí importa; cada elemento va en un `<li>` y los números salen solos.
+* **Práctica**: [Crea tus listas en CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split)
 
 ### Módulo C: Multimedia y navegación
 
@@ -94,8 +94,8 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 | :---: | :--- | :--- |
 | 1 | ¿Qué es el desarrollo web? | Pendiente |
 | 2 | Tu primera página HTML | Pendiente |
-| 3 | Dando formato al texto | Pendiente |
-| 4 | Creación de listas | Pendiente |
+| 3 | Dando formato al texto | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split) |
+| 4 | Creación de listas | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split) |
 | 5 | Añadiendo imágenes | Pendiente |
 | 6 | Conectando la web con enlaces | Pendiente |
 | 7 | Introducción a CSS | Pendiente |
