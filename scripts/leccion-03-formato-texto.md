@@ -2,7 +2,7 @@
 
 **Duración:** 5 min
 **Editor:** CodePen
-**Video:** https://youtu.be/bQ9Ttcp76r0
+**Video:** https://youtu.be/_tl326nUC5Y
 **Práctica:** https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split
 **Archivos:** `/starter-files/leccion-03-formato-texto` → `/completed-examples/leccion-03-formato-texto`
 
