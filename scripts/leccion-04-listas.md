@@ -2,7 +2,7 @@
 
 **Duración:** 5 min
 **Editor:** CodePen
-**Video:** https://youtu.be/BzdWbJrOydM
+**Video:** https://youtu.be/ms2JkygFzpY
 **Práctica:** https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split
 **Archivos:** `/starter-files/leccion-04-listas` → `/completed-examples/leccion-04-listas`
 
