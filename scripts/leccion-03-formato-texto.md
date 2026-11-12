@@ -1,74 +1,64 @@
 # Guion – Lección 3: Dando formato al texto
 
-**Duración estimada:** 5–6 min
-**Editor:** CodePen (https://codepen.io/pen/)
+**Duración:** 5 min
+**Editor:** CodePen
+**Video:** https://youtu.be/bQ9Ttcp76r0
+**Práctica:** https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split
 **Archivos:** `/starter-files/leccion-03-formato-texto` → `/completed-examples/leccion-03-formato-texto`
 
 ---
 
-## 1. Introducción (0:00 – 0:40)
+## Parte 1: Presentación (diapositivas)
 
-**Narración:**
-"¡Hola! ¿Alguna vez viste una palabra en negrita, en cursiva o resaltada en una página web? Todo eso se logra con etiquetas de HTML. Hoy vamos a ayudar a Lucía a darle formato al texto de su página personal: vamos a destacar lo importante, separar ideas y cortar líneas. Y al final hay una adivinanza para ti."
+**Diapositiva 1 – Portada**
+"¡Hola! Bienvenido a la lección 3. ¿Alguna vez viste una palabra en negrita, en cursiva o resaltada en una página web? Todo eso se logra con etiquetas de HTML. Hoy vamos a ayudar a Lucía a darle formato a su página personal. ¡Empecemos!"
 
-**Texto en pantalla:** Lección 3 – Dando formato al texto
-**Visual:** Mostrar el resultado final y, al lado, la misma página sin formato (antes y después).
+**Diapositiva 2 – ¿Qué es dar formato al texto?**
+"Dar formato es decirle al navegador cómo se debe ver una parte del texto. Para eso envolvemos la palabra con una etiqueta: primero la etiqueta de apertura, luego el texto, y al final la etiqueta de cierre, que lleva una barra."
 
-## 2. Preparar CodePen (0:40 – 1:20)
+**Diapositiva 3 – Negrita, cursiva y resaltado**
+"Estas son tres etiquetas para dar formato. strong pone el texto en negrita y sirve para lo importante. em lo pone en cursiva, para darle énfasis. Y mark lo resalta, como si pasaras un marcador amarillo. Las tres funcionan igual: se abren, envuelven el texto y se cierran."
 
-**Narración:**
-"Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files, pero solo lo que está entre `<body>` y `</body>`. No copies esas dos etiquetas, porque CodePen ya las incluye. Pégalo en el panel HTML. Hoy no vamos a usar el panel CSS."
+**Diapositiva 4 – Línea y salto de línea**
+"Ahora, dos etiquetas especiales. hr dibuja una línea horizontal para separar partes de la página. Y br corta la línea. Ninguna de las dos se cierra, porque no envuelven ningún texto. Un dato curioso: si en el código presionas Enter, en la página no aparece una línea nueva. ¡HTML ignora el Enter! Por eso usamos br, ideal para versos y poemas. Para separar párrafos, usamos p."
 
-**Texto en pantalla:** Panel HTML ← lo que está dentro de `<body>` · Hoy no usamos CSS
-**Visual:** Abrir CodePen, pegar el código y mostrar la vista previa sin formato.
+**Diapositiva 5 – ¿strong o b? ¿em o i?**
+"Quizás veas por ahí las etiquetas b e i. Se ven igual que strong y em, pero solo cambian la apariencia. Nosotros usamos strong y em porque le dicen al navegador que esas palabras de verdad son importantes."
 
-## 3. Negrita, cursiva y resaltado: pasos 1 a 3 (1:20 – 3:10)
+**Diapositiva 6 – Ejemplo**
+"Mira este ejemplo. A la izquierda está el código y a la derecha, lo que muestra el navegador. Fíjate en la última línea: combinamos strong y em, y las cerramos en orden inverso. Es como las medias y los zapatos: primero te pones las medias y luego los zapatos, pero al quitártelos, primero van los zapatos."
 
-**Narración:**
-"Paso 1. Queremos que 'Lima, Perú' se vea importante. Usamos la etiqueta `strong`: abrimos con `<strong>`, escribimos el texto y cerramos con `</strong>`. ¡Listo! Ahora está en negrita."
+**Diapositiva 7 – Actividad práctica**
+"¡Ahora te toca a ti! Abre el enlace de CodePen que está en la descripción del video. No tienes que instalar nada. Sigue los comentarios del código y pausa el video cuando lo necesites. ¡Vamos a CodePen!"
 
-"Paso 2. Para darle énfasis a la palabra 'dibujar' usamos la etiqueta `em`. Abrimos con `<em>` y cerramos con `</em>`. El texto se pone en cursiva."
+---
 
-"Paso 3. Para resaltar 'HTML y CSS' usamos `mark`, como si pasáramos un marcador amarillo por encima."
+## Parte 2: Práctica en CodePen
 
-"Las tres etiquetas funcionan igual: una de apertura, el texto y una de cierre con barra. Quizás veas por ahí las etiquetas `b` e `i`. Se ven igual, pero nosotros usamos `strong` y `em` porque le dicen al navegador que esas palabras realmente son importantes."
+**Inicio**
+"Este es el código de Lucía. Hoy solo usamos el panel HTML. Los comentarios en gris te dicen qué hacer en cada paso."
 
-"Pausa el video y haz los pasos 1, 2 y 3 en tu CodePen. Cuando termines, seguimos."
+**Paso 1 – Negrita** · `<strong>`
+"Envolvemos Lima, Perú con strong. ¡Mira la vista previa: ya está en negrita!"
 
-**Texto en pantalla:**
-`<strong>` → negrita
-`<em>` → cursiva
-`<mark>` → resaltado
-**Visual:** Escribir cada paso y marcar con un círculo el cambio en la vista previa.
+**Paso 2 – Cursiva** · `<em>`
+"Ahora envolvemos la palabra dibujar con em. Se pone en cursiva."
 
-## 4. Líneas y saltos de línea: pasos 4 y 5 (3:10 – 4:25)
+**Paso 3 – Resaltado** · `<mark>`
+"Y HTML y CSS con mark. ¡Quedó resaltado en amarillo!"
 
-**Narración:**
-"Paso 4. Ahora queremos separar la presentación de Lucía de su adivinanza. Para eso usamos `hr`, que dibuja una línea horizontal. Esta etiqueta es especial: no se cierra, porque no envuelve ningún texto."
+**Paso 4 – Línea** · `<hr>`
+"Escribimos hr antes de la adivinanza. Aparece una línea que separa las dos partes. Recuerda: no se cierra."
 
-"Paso 5. Mira la adivinanza. En el código está escrita en cuatro líneas, pero en la página aparece toda junta. ¡HTML ignora cuando presionamos Enter! Para cortar una línea usamos `br`. Escribimos `<br>` al final de los tres primeros versos, y ahora cada verso aparece en su propia línea. Un consejo: `br` sirve para versos y poemas. Para separar párrafos usamos `p`."
+**Paso 5 – Saltos de línea** · `<br>`
+"Mira la adivinanza: en el código está en cuatro líneas, pero en la página sale todo junto. Agregamos br al final de los tres primeros versos y... ¡ahora cada verso tiene su propia línea!"
 
-"Pausa el video y haz los pasos 4 y 5."
+**Paso 6 – Combinar** · `<strong><em>`
+"Por último, abrimos strong, luego em, escribimos la pregunta, y cerramos primero em y después strong. ¡Negrita y cursiva a la vez! Pausa el video y haz los seis pasos con calma."
 
-**Texto en pantalla:** `<hr>` y `<br>` no se cierran · Enter en el código ≠ línea nueva en la página
-**Visual:** Mostrar la adivinanza en una sola línea; luego agregar los `<br>` y mostrar cómo cada verso baja a su propia línea.
+---
 
-## 5. Combinar etiquetas: paso 6 (4:25 – 5:05)
+## Parte 3: Cierre
 
-**Narración:**
-"Paso 6. ¡También podemos combinar etiquetas! Queremos que '¿Ya la adivinaste?' salga en negrita y en cursiva a la vez. Abrimos `strong`, luego `em`, escribimos el texto y cerramos en orden inverso: primero `em` y después `strong`. Es como con las medias y los zapatos: te los pones en un orden y te los quitas en el orden contrario."
-
-"Pausa el video, haz el paso 6 e intenta adivinar la adivinanza. ¡La respuesta está en el cierre!"
-
-**Texto en pantalla:** `<strong><em>texto</em></strong>` → se cierra en orden inverso
-**Visual:** Animación con cajas: `strong` envuelve a `em`, que envuelve al texto.
-
-## 6. Cierre (5:05 – 5:40)
-
-**Narración:**
-"¡Muy bien! Hoy aprendiste cinco etiquetas: `strong`, `em`, `mark`, `hr` y `br`. ¿Ya sabes la respuesta de la adivinanza? ¡Es la pera! Y un último consejo: cuando crees tu propia página, no escribas tu dirección ni tu teléfono. En la siguiente lección aprenderemos a crear listas."
-
-**Texto en pantalla:**
-`<strong>` negrita · `<em>` cursiva · `<mark>` resaltado · `<hr>` línea · `<br>` salto de línea
-🍐 Respuesta: la pera
-➡️ Siguiente: Lección 4 – Creación de listas
+**Diapositiva 8 – Buenas prácticas**
+"¡Muy bien! Antes de terminar, tres consejos. Uno: cuando combines etiquetas, ciérralas en orden inverso. Dos: usa br para versos y poemas; para separar párrafos, usa p. Y tres: cuida tus datos; no publiques tu dirección ni tu teléfono. ¿Ya sabes la respuesta de la adivinanza? ¡Es la pera! En la próxima lección aprenderemos a crear listas. ¡Nos vemos!"
