@@ -45,16 +45,17 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 ### Módulo C: Multimedia y navegación
 
 #### Lección 5: Añadiendo imágenes (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+* **Descripción**: Aprende a insertar imágenes en una página HTML utilizando la etiqueta `<img>` y los atributos `src`, `alt` y `width`.
+* **Video**: [Ver la lección](https://youtu.be/A8QsOUjZ4Ck?si=WGsjsd0p0OTnmra0)
+* **Consejos clave**: Usa `src` para indicar la ubicación de la imagen, `alt` para proporcionar una descripción alternativa y `width` para controlar su ancho. Verifica que la dirección de la imagen sea correcta y utiliza textos alternativos descriptivos.
+* **Práctica**: [Agrega tus imagenes en CodePen](https://codepen.io/desarrolloweb56/pen/rayRpJW?editors=1000)
 
 #### Lección 6: Conectando la web con enlaces (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+* **Descripción**: Aprende a crear enlaces en HTML para conectar tu página con otros sitios y recursos utilizando la etiqueta `<a>` y el atributo `href`.
+* **Video**: [Ver la lección](https://youtu.be/wWvV-5NRWNs?si=IgT6aN60pFeTqI7B)
+* **Consejos clave**: Usa `<a>` para crear enlaces, `href` para indicar el destino y un texto claro para el usuario. Puedes combinar los enlaces con `<ul>` y `<li>` para organizar varios recursos en una lista.
+* **Práctica**: [Agrega tus enlaces en CodePen](https://codepen.io/desarrolloweb56/pen/ZYePvrO?editors=1000)
+
 
 ### Módulo D: Diseño y estilos con CSS
 
