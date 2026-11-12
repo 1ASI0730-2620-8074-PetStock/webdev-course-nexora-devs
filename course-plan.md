@@ -17,16 +17,16 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 ### Módulo A: Conociendo la web
 
 #### Lección 1: ¿Qué es el desarrollo web? (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+* **Descripción**: Descubre qué hay detrás de tus páginas favoritas como Roblox o Pinterest, cómo funciona un navegador y por qué HTML y CSS son el dúo dinámico de internet.
+* **Video**:  [Ver la lección](https://youtu.be/ukjamPdrOsk?si=lcS4IvlDB0Y-QDRl)
+* **Consejos clave**: Todo sitio web combina Contenido (HTML) y Estilo (CSS). ¡No necesitas instalar nada, solo abrir tu navegador y empezar!
+* **Práctica**: [ Explora tu primer codigo en CodePen](https://codepen.io/desarollador/pen/qErvbVp?editors=1100)
 
 #### Lección 2: Tu primera página HTML (Pendiente)
-* **Descripción**: Pendiente
-* **Video**: Pendiente
-* **Consejos clave**: Pendiente
-* **Práctica**: Pendiente
+* **Descripción**: Todo sitio web tiene un esqueleto oculto bajo la pantalla. Descubre cómo armarlo pieza por pieza con tus primeras etiquetas HTML y dale forma a tu propia página de presentación en minutos.
+* **Video**: [Ver la lección](https://youtu.be/RI4IYNBt8JQ?si=rBeYyQDxVX_NlCkT)
+* **Consejos clave**: ¡No olvides cerrar tus etiquetas! Usa siempre un único h1 por página como título principal y organiza tus subtítulos de forma ordenada (h2, h3, etc.).
+* **Práctica**: [Crea tu primera estructura en CodePen](https://codepen.io/desarollador/pen/PwpLzwm?editors=1100)
 
 ### Módulo B: Organizando el contenido HTML
 
