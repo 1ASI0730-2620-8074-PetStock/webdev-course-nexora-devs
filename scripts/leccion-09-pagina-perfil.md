@@ -1,72 +1,91 @@
 # Guion – Lección 9: Creando tu página de perfil
 
-**Duración estimada:** 7 min
-**Editor:** CodePen (https://codepen.io/pen/)
+**Duración:** 5 min
+**Editor:** CodePen
+**Video:** https://youtu.be/Sq7geX_w4jA
+**Práctica:** https://codepen.io/Nexora-Web-cu/pen/dPGBPQG
 **Archivos:** `/starter-files/leccion-09-pagina-perfil` → `/completed-examples/leccion-09-pagina-perfil`
 
 ---
 
-## 1. Introducción
+## Parte 1: Presentación (diapositivas)
 
-**Narración:**
-"¡Hola! Llegamos a la parte más emocionante del curso: vamos a juntar todo lo que aprendimos para crear nuestra propia página de perfil. Usaremos títulos, párrafos, listas, imágenes, enlaces y CSS. Al final tendrás una tarjeta de presentación que puedes compartir con tus amigos."
+**Diapositiva 1 – Portada**
+"¡Hola! Bienvenido a la lección 9. Llegamos a la parte más emocionante del curso: vamos a juntar todo lo que aprendimos para crear nuestra propia página de perfil, como una tarjeta de presentación que puedes compartir con tus amigos. Vamos a usar HTML y CSS. ¡Empecemos!"
 
-**Texto en pantalla:** Lección 9 – Tu página de perfil
-**Visual:** Mostrar el resultado final terminado.
+**Diapositiva 2 – ¿Qué vamos a construir?**
+"Hoy vamos a construir una tarjeta de perfil, como las que ves en las redes sociales. Primero, con HTML, ponemos el contenido: tu foto, tu nombre, tu grado, algo sobre ti, tus pasatiempos y un enlace a tu página favorita. Después, con CSS, le damos diseño: colores, una tarjeta blanca centrada, una foto redonda y un botón. Y al final, la personalizas con tus propios datos para que sea solo tuya."
 
-## 2. Preparar CodePen 
+**Diapositiva 3 – Preparar CodePen**
+"Para esta práctica vamos a usar CodePen, una página donde escribes código y ves el resultado al instante. No tienes que instalar nada, solo necesitas tu navegador. Abre el enlace que está en la descripción del video. Vas a ver tres paneles: HTML, CSS y JavaScript. Hoy solo usaremos HTML y CSS. Y abajo está la vista previa, donde verás cómo cambia tu página."
 
-**Narración:**
-"Abre CodePen; no necesitas instalar nada. Copia el código del archivo `index.html` de la carpeta starter-files, solo lo que está entre `<body>` y `</body>`, y pégalo en el panel HTML. Luego copia todo `style.css` en el panel CSS. CodePen conecta el HTML y el CSS solito."
+**Diapositiva 4 – Estructura HTML**
+"Estas son las etiquetas que vamos a usar, y todas ya las conoces. img sirve para poner una imagen, como tu foto. h1 es el título principal, ahí va tu nombre. p sirve para escribir párrafos. h2 es un subtítulo, para separar las partes de la página. ul y li forman una lista, perfecta para tus pasatiempos. Y a crea un enlace para ir a otra página."
 
-**Texto en pantalla:** Panel HTML ← lo que está dentro de `<body>` · Panel CSS ← style.css
-**Visual:** Pegar el código en cada panel.
+**Diapositiva 5 – Las clases**
+"Hoy aprendemos algo nuevo: las clases. Imagina que pones una etiqueta adhesiva con un nombre en tu cuaderno para encontrarlo rápido. Una clase hace lo mismo: le pone un nombre a un elemento de la página. Por ejemplo, a la foto le ponemos class igual a foto. Después, en el CSS, la llamamos escribiendo un punto antes del nombre: punto foto. Así el estilo se aplica solo a ese elemento. ¡Que no se te olvide el punto!"
 
-## 3. Estructura HTML: pasos 1 a 6 
+**Diapositiva 6 – Propiedades nuevas**
+"También veremos propiedades nuevas de CSS. max-width pone un ancho máximo, para que la tarjeta no crezca demasiado. margin auto la centra en la pantalla. border-radius redondea las esquinas, y si le ponemos 50 por ciento, la foto se vuelve un círculo. list-style none quita los puntitos de la lista. Y text-decoration none quita la raya de abajo de los enlaces."
 
-**Narración:**
-"Empecemos con la foto. Usamos la etiqueta `img` con el atributo `src` para la dirección de la imagen y `alt` para describirla. Le agregamos la clase `foto` para darle estilo después."
+**Diapositiva 7 – Los 13 pasos**
+"Haremos 13 pasos cortitos. Del paso 1 al 6 trabajamos en el HTML: agregamos la foto, el nombre, el grado, una parte sobre ti, tus pasatiempos y un enlace. Y del paso 7 al 13 trabajamos en el CSS: le damos color al fondo, armamos la tarjeta, hacemos la foto redonda y convertimos el enlace en un botón."
 
-"Ahora tu nombre va en un `h1`, porque es el título más importante. Debajo, un párrafo con la clase `subtitulo` para tu grado y tu ciudad."
+**Diapositiva 8 – Actividad práctica**
+"¡Ahora te toca a ti! Vamos a CodePen."
 
-"Agregamos un `h2` 'Sobre mí' y un párrafo contándonos qué te gusta. Luego otro `h2` 'Mis pasatiempos' con una lista `ul` y tres elementos `li`."
+---
 
-"Por último, un `h2` 'Mi sitio favorito' y un enlace `a`. Fíjate que el `href` empieza con `https://`. Con `target="_blank"`, el enlace se abre en otra pestaña."
+## Parte 2: Práctica en CodePen
 
-**Texto en pantalla:** `<img>` · `<h1>` · `<p>` · `<h2>` · `<ul>` + `<li>` · `<a>`
-**Visual:** Escribir cada paso y mostrar cómo cambia la vista previa.
+**Inicio**
+"Esta caja main será nuestra tarjeta. Todo irá aquí adentro."
 
-## 4. Algo nuevo: las clases 
+### HTML
 
-**Narración:**
-"Antes de ir al CSS, algo nuevo. En la lección 7 aplicamos estilos a todas las etiquetas de un tipo, por ejemplo a todos los `h1`. Pero ¿y si queremos darle estilo solo a un elemento? Para eso usamos el atributo `class`, que es como ponerle un nombre o una etiqueta adhesiva. Por ejemplo, a nuestra imagen le pusimos `class="foto"`."
+**Paso 1 – Foto** · `<img src="..." alt="..." class="foto">`
+"La etiqueta img pone una imagen. src es el enlace de la foto, alt la describe por si no carga, y class le pone el nombre foto para darle estilo después."
 
-"En el CSS, para elegir una clase escribimos un punto antes del nombre: `.foto`. Así el estilo se aplica solo a los elementos que tienen esa clase."
+**Paso 2 – Nombre** · `<h1>`
+"h1 es el título principal, el más grande. Lo usamos para el nombre."
 
-**Texto en pantalla:** HTML: `class="foto"` → CSS: `.foto { }` · ¡No olvides el punto!
-**Visual:** Flecha que une `class="foto"` en el HTML con `.foto` en el CSS.
+**Paso 3 – Grado y ciudad** · `<p class="subtitulo">`
+"p sirve para escribir párrafos. Le ponemos la clase subtitulo para cambiarle el color luego."
 
-## 5. Dar estilo con CSS: pasos 7 a 13 
+**Paso 4 – Sobre mí** · `<h2>` + `<p>`
+"h2 es un subtítulo, más pequeño que h1. Sirve para separar las partes de la página."
 
-**Narración:**
-"Nuestra página ya tiene contenido, pero se ve muy simple. Vamos al panel CSS. Usaremos lo que aprendimos en las lecciones 7 y 8, y conoceremos algunas propiedades nuevas."
+**Paso 5 – Pasatiempos** · `<ul>` + `<li>`
+"ul crea una lista y cada li es un elemento de la lista. ¡Hasta con emojis!"
 
-"En el `body` ponemos un fondo celeste claro, la fuente Arial y centramos el texto."
+**Paso 6 – Enlace** · `<a href="https://..." target="_blank" class="boton">`
+"La etiqueta a crea un enlace. href es la dirección, siempre con https, y target blank lo abre en otra pestaña. Ya tenemos el contenido, pero se ve muy simple. ¡Vamos al CSS!"
 
-"A `.tarjeta` le damos fondo blanco y dos propiedades nuevas: `max-width: 400px`, para que no sea más ancha de 400 píxeles, y `margin: 40px auto`, que deja espacio por fuera y la centra en la pantalla. Con `padding`, que ya conocemos, dejamos espacio por dentro. Y otra propiedad nueva: `border-radius`, que redondea las esquinas."
+### CSS
 
-"Si a la foto le ponemos `border-radius: 50%`, ¡se vuelve un círculo!"
+**Inicio**
+"En CSS escribimos a qué le damos estilo, abrimos llaves y adentro ponemos las propiedades, cada una con punto y coma al final."
 
-"Cambiamos el color del `h1` a azul y el del subtítulo a gris. En la lista quitamos las viñetas con `list-style: none`."
+**Paso 7 – Fondo** · `body`
+"body es toda la página. background-color cambia el fondo a celeste, font-family cambia la letra, y text-align center centra el texto."
 
-"Y para terminar convertimos el enlace en un botón: fondo azul, texto blanco, algo de `padding` y esquinas redondeadas. Con `text-decoration: none` quitamos el subrayado, y con `display: inline-block` el padding funciona bien en el enlace."
+**Paso 8 – Tarjeta** · `.tarjeta`
+"Para llamar a una clase usamos un punto: punto tarjeta. Le damos fondo blanco, un ancho máximo de 400 píxeles, margin auto para centrarla, padding para el espacio por dentro, y border-radius para redondear las esquinas."
 
-**Texto en pantalla:** Propiedades nuevas: `max-width` · `margin` · `border-radius` · `list-style` · `text-decoration`
-**Visual:** Escribir cada regla y mostrar el cambio en la vista previa.
+**Paso 9 – Foto redonda** · `.foto`
+"Si redondeamos la foto al 50 por ciento... ¡se vuelve un círculo!"
 
-## 6. Cierre
+**Pasos 10 y 11 – Colores** · `h1` y `.subtitulo`
+"color cambia el color de las letras: el nombre en azul y el subtítulo en gris. Fíjate que h1 no lleva punto porque es una etiqueta, pero subtitulo sí, porque es una clase."
 
-**Narración:**
-"¡Listo! Ya tienes tu página de perfil. Cambia el nombre, la foto, los colores y los pasatiempos para que sea tuya. Puedes comparar tu código con la solución en la carpeta completed-examples. En la siguiente lección veremos los errores más comunes y cómo arreglarlos."
+**Paso 12 – Lista** · `ul`
+"list-style none quita los puntitos de la lista."
 
-**Texto en pantalla:** ¡Personalízala! · Siguiente: Lección 10 – Errores comunes
+**Paso 13 – Botón** · `.boton`
+"Y convertimos el enlace en un botón: fondo azul, letras blancas, espacio por dentro, esquinas redondeadas, y text-decoration none para quitar la raya de abajo. ¡Y listo! Mira cómo quedó nuestra tarjeta de perfil."
+
+---
+
+## Parte 3: Cierre
+
+"¡Y listo! Pasamos de una página vacía a una tarjeta de perfil con diseño. Recuerda lo más importante: HTML pone el contenido, como la foto, el nombre y la lista, y CSS le da el estilo, como los colores, la tarjeta y el botón. Las clases se escriben con class en el HTML, y en el CSS se llaman con un punto. Ahora te toca a ti: cambia el nombre, la foto, los colores y tus pasatiempos para que sea solo tuya. Y si quieres comparar, la solución está en el repositorio. En la próxima lección aprenderemos a encontrar y corregir los errores más comunes. ¡Nos vemos!"
