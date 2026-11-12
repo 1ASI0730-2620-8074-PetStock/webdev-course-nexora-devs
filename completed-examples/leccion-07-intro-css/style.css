@@ -1,0 +1,21 @@
+
+/* Estilos generales de la página */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: darkblue;
+}
+
+/* Estilo de los subtítulos */
+h2 {
+    color: green;
+}
+
+/* Estilo de los párrafos */
+p {
+    color: black;
+}

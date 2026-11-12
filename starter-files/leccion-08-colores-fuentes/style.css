@@ -1,0 +1,39 @@
+
+/* LECCIÓN 08: COLORES, FUENTES Y ALINEACIÓN */
+
+/* Actividad 1: Alinear el contenido */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+
+    /* Agrega text-align: center; */
+    /* Agrega padding: 20px; */
+}
+
+/* Actividad 2: Mejorar el título */
+h1 {
+    color: darkblue;
+
+    /* Agrega font-size: 32px; */
+    /* Agrega border: 2px solid darkblue; */
+    /* Agrega padding: 10px; */
+}
+
+/* Actividad 3: Mejorar los subtítulos */
+h2 {
+    color: green;
+
+    /* Agrega font-size: 24px; */
+    /* Agrega text-align: left; */
+}
+
+/* Actividad 4: Mejorar los párrafos */
+p {
+    color: black;
+
+    /* Agrega font-size: 18px; */
+    /* Agrega text-align: left; */
+    /* Agrega background-color: white; */
+    /* Agrega padding: 10px; */
+    /* Agrega border: 1px solid gray; */
+}

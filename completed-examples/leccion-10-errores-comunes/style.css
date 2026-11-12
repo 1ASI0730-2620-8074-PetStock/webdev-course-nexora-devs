@@ -1,0 +1,45 @@
+/* Lección 10 - Errores comunes (solución) */
+
+body {
+  background-color: #e8f0fe;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* ✅ Error 4: la propiedad se escribe en inglés de EE. UU.: "color", no "colour" */
+.tarjeta {
+  background-color: white;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+/* ✅ Error 5: para seleccionar una clase se usa un punto: .foto */
+.foto {
+  border-radius: 50%;
+}
+
+/* ✅ Error 6: faltaba el punto y coma (;) al final de "color" */
+h1 {
+  color: #1a73e8;
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
