@@ -92,8 +92,8 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 
 | Lección | Actividad | Empezar a programar |
 | :---: | :--- | :--- |
-| 1 | ¿Qué es el desarrollo web? | Pendiente |
-| 2 | Tu primera página HTML | Pendiente |
+| 1 | ¿Qué es el desarrollo web? | [CodePen](https://codepen.io/desarollador/pen/qErvbVp?editors=1100) |
+| 2 | Tu primera página HTML | [CodePen](https://codepen.io/desarollador/pen/PwpLzwm?editors=1100) |
 | 3 | Dando formato al texto | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce51-ce89-7e44-94ce-6c9a518098f1?tab=%2Findex.html&orientation=left&panel=false&show=split) |
 | 4 | Creación de listas | [CodePen](https://codepen.io/editor/aprende-html-web/pen/01a1ce65-6719-7c45-a572-1a3af7c0dcfd?tab=%2Findex.html&orientation=left&panel=false&show=split) |
 | 5 | Añadiendo imágenes | Pendiente |
@@ -103,7 +103,9 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 | 9 | Proyecto final: página de perfil | [CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG) |
 | 10 | Caza de errores | [CodePen](https://codepen.io/Nexora-Web-cu/pen/zxrVxEe) |
 
+* **Cuestionario**:[Pon a prueba tus conocimientos](https://forms.gle/M2VLZDoSJ1UKZJsc7)
 * **Para seguir aprendiendo**: [MDN Web Docs](https://developer.mozilla.org/es/) · [freeCodeCamp](https://www.freecodecamp.org/espanol/)
+* **Compartir**: #WebDevBeginners
 
 **¡Gracias por completar el curso!**
 
@@ -112,7 +114,18 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 * **Carrera de Ingeniería de Software**
 * **Periodo**: 202620
 * **Curso**: 1ASI0730 Aplicaciones Web
-* **NRC**: Pendiente
+* **NRC**: 8074
 * **Nombre del equipo**: Nexora Devs
-* **Líder del equipo**: Pendiente
-* **Integrantes del equipo**: Pendiente
+* **Líder del equipo**: Mariel Lucero Mendoza Moreano
+* **Integrantes del equipo**: 
+   - Mendoza Moreano, Mariel Lucero 
+   - Quispe Palomino, Tony Jhunior 
+   - Valladolid Jiménez, Arturo Fernado
+   - Mendoza Boluarte, Pierre Alessandro
+   - Gutierrez Tume, Stanley Jeremy
+
+
+
+
+
+
