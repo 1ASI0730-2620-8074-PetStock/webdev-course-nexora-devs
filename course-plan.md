@@ -128,7 +128,6 @@ Este curso introductorio de aproximadamente 1 hora está diseñado para enseñar
 | 6 | Conectando la web con enlaces | [CodePen](https://codepen.io/desarrolloweb56/pen/ZYePvrO?editors=1000) |
 | 7 | Introducción a CSS | [CodePen](https://codepen.io/nexora-webdev-course/pen/LEWajMm?editors=1100) |
 | 8 | Colores, fuentes y alineación | [CodePen](https://codepen.io/nexora-webdev-course/pen/pveYrYE?editors=1100) |
-
 | 9 | Proyecto final: página de perfil | [CodePen](https://codepen.io/Nexora-Web-cu/pen/dPGBPQG) |
 | 10 | Caza de errores | [CodePen](https://codepen.io/Nexora-Web-cu/pen/zxrVxEe) |
 
